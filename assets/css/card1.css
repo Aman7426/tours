@@ -15,6 +15,7 @@
     margin: 5px;
     cursor: pointer;
     border-radius: 20px;
+     width:100%;
 }
 .tit{
     font-family:'Times New Roman', Times, serif;
