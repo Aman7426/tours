@@ -1,0 +1,40 @@
+
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-img-top{
+    height: 170px;
+    width: 286px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card{
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.tit{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold ;
+    font-style:italic;
+}
+
+.ruppe{
+    margin-right: 50px;
+}
+ 
+.lil{
+    font-size: large;
+    font-weight: bolder;
+}
+
+@media(max-width:720px){
+    .card:hover{
+        transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+   }
+   
+}
